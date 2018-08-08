@@ -1,0 +1,82 @@
+<resources>
+    <string name="app_name">what is…</string>
+    <string name="search_hint">Type a word…</string>
+    <string name="search_button_text">Search</string>
+    <string name="empty_search_text">Please, type first!</string>
+    <string name="no_history_record">You do not have any history record!</string>
+    <string name="widget_title">Search History</string>
+    <string name="empty_result">There is no data for this search!</string>
+    <string name="sample_admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="server_error">Server Error!</string>
+    <string name="more">More</string>
+    <string name="history">History</string>
+    <string name="delete_all_history">Delete All History</string>
+    <string name="are_you_sure">Are you sure?</string>
+    <string name="all_history_will_be_deleted">All history will be deleted!</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="message">Message</string>
+    <string name="about">About</string>
+    <string name="language">Language</string>
+    <string name="select_language">Select Language:</string>
+    <string name="spanish">Spanish</string>
+    <string name="english">English</string>
+    <string name="latvian">Latvian</string>
+    <string name="hindi">Hindi</string>
+    <string name="swahili">Swahili</string>
+    <string name="tamil">Tamil</string>
+    <string name="gujarati">Gujarati</string>
+    <string name="free_version">Free Version</string>
+    <string name="premium_version">Premium Version</string>
+    <string name="history_word">History Word</string>
+    <string name="lexical_category">Lexical Category</string>
+    <string name="definitions">Definitions</string>
+    <string name="more_item">More Item</string>
+    <string name="widget_item">Widget Item</string>
+    <string name="selected">selected!</string>
+    <string name="get_premium">Get premium for access other languages!</string>
+    <string name="search_menu">Search</string>
+    <string name="history_menu">History</string>
+    <string name="more_menu">More</string>
+    <string name="ioexception">IOException</string>
+    <string name="cannot_read_file">Can not read file: </string>
+    <string name="file_write_fail">File write failed: </string>
+    <string name="error">Error</string>
+    <string name="exempli_gratia">e.g.,</string>
+    <string name="thanks">\n\u0020\u0020\u0020I am having an incredible journey for 9 months; being a part of 1000 cohorts has been a motivating, inspiring and magnificent experience.\n\n\u0020\u0020\u0020Firstly thanks to my mentors - Saurabh Jain, Ashesh Bharadwaj and Harshit Dwivedi for their availability every time when I had a doubt and needed direction.
+    \n\n\u0020\u0020\u0020Special thanks to Jose Nieto for his dedication to us and being available to answer queries in spite of his busy schedule.
+    \n\n\u0020\u0020\u0020Last but not the least, great thanks to Muhammed Salih Guler, Magdalena Zochowska and Joanna Buchmeyer for their supports in Slack.
+    \n\n\u0020\u0020\u0020Thank you Udacity &amp; Google for these breathtaking 9 months&#8230;</string>
+
+    <!-- Content descriptions -->
+    <string name="toolbar_history">Toolbar History</string>
+    <string name="history_rv">History RecyclerView</string>
+    <string name="navigation_view_history">Bottom Navigation View in History UI</string>
+    <string name="clear_FAB">Floating Action Button for Clear History</string>
+    <string name="select_tv">Select Language TextView</string>
+    <string name="spanish_tv">Spanish TextView</string>
+    <string name="english_tv">English TextView</string>
+    <string name="latvian_tv">Latvian TextView</string>
+    <string name="hindi_tv">Hindi TextView</string>
+    <string name="swahili_tv">Swahili TextView</string>
+    <string name="tamil_tv">Tamil TextView</string>
+    <string name="gujarati_tv">Gujarati TextView</string>
+    <string name="app_bar_layout">App Bar Layout in Main UI</string>
+    <string name="collapsing_toolbar_layout">Collapsing Toolbar Layout in Main UI</string>
+    <string name="toolbar_iv">Toolbar ImageView shows Flag</string>
+    <string name="main_toolbar">Toolbar in Main UI</string>
+    <string name="title_main">Main Title</string>
+    <string name="search_ib">Image Button for start Search</string>
+    <string name="entries_rv">RecyclerView which will show results</string>
+    <string name="navigation_view_main">Bottom Navigation View in Main UI</string>
+    <string name="history_tv">Shows recent searches in Widget</string>
+    <string name="load_pw">Visible during search action</string>
+    <string name="message_tv">TextView which shows errors or problems</string>
+    <string name="more_toolbar">Toolbar in More UI</string>
+    <string name="ic_launcher">Shows App icon in More UI</string>
+    <string name="version_tv">Shows App Version</string>
+    <string name="more_rv">Contains Language and About items</string>
+    <string name="navigation_view_more">Bottom Navigation View in More UI</string>
+    <string name="adView">Shows Ads by Google</string>
+</resources>

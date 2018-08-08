@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.baris.whatis.user_interface.language.LanguageActivity"
+    android:background="@color/colorPrimaryLight">
+
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/select_tv"
+            android:contentDescription="@string/select_tv"
+            android:text="@string/select_language"
+            android:textColor="@color/white"
+            android:fontFamily="@font/ubuntu_bold"
+            android:paddingTop="16dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingBottom="16dp"
+            android:textSize="20sp"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:id="@+id/divider1"
+            app:layout_constraintTop_toBottomOf="@+id/select_tv"
+            android:background="@color/grey" />
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/language_layout_1"
+            app:layout_constraintTop_toBottomOf="@id/divider1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/spanish_tv"
+                android:contentDescription="@string/spanish_tv"
+                android:text="@string/spanish"
+                android:fontFamily="@font/ubuntu_regular"
+                android:textColor="@color/white"
+                android:padding="@dimen/general_padding"
+                android:textSize="20sp"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:id="@+id/divider2"
+                app:layout_constraintTop_toBottomOf="@+id/spanish_tv"
+                android:background="@color/grey" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/selected_iv1"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:src="@drawable/ic_action_done_outline"
+                android:visibility="visible"
+                android:padding="@dimen/general_padding"/>
+
+        </android.support.constraint.ConstraintLayout>
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/language_layout_2"
+            app:layout_constraintTop_toBottomOf="@id/language_layout_1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/english_tv"
+                android:contentDescription="@string/english_tv"
+                android:text="@string/english"
+                android:fontFamily="@font/ubuntu_regular"
+                android:textColor="@color/white"
+                android:padding="@dimen/general_padding"
+                android:textSize="20sp"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:id="@+id/divider3"
+                app:layout_constraintTop_toBottomOf="@+id/english_tv"
+                android:background="@color/grey" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/selected_iv2"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:src="@drawable/ic_action_done_outline"
+                android:visibility="gone"
+                android:padding="@dimen/general_padding"/>
+
+        </android.support.constraint.ConstraintLayout>
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/language_layout_3"
+            app:layout_constraintTop_toBottomOf="@id/language_layout_2">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/latvian_tv"
+                android:contentDescription="@string/latvian_tv"
+                android:text="@string/latvian"
+                android:fontFamily="@font/ubuntu_regular"
+                android:textColor="@color/white"
+                android:padding="@dimen/general_padding"
+                android:textSize="20sp"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:id="@+id/divider4"
+                app:layout_constraintTop_toBottomOf="@+id/latvian_tv"
+                android:background="@color/grey" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/selected_iv3"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:src="@drawable/ic_action_done_outline"
+                android:visibility="gone"
+                android:padding="@dimen/general_padding"/>
+
+        </android.support.constraint.ConstraintLayout>
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/language_layout_4"
+            app:layout_constraintTop_toBottomOf="@id/language_layout_3">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/hindi_tv"
+                android:contentDescription="@string/hindi_tv"
+                android:fontFamily="@font/ubuntu_regular"
+                android:text="@string/hindi"
+                android:textColor="@color/white"
+                android:padding="@dimen/general_padding"
+                android:textSize="20sp"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:id="@+id/divider5"
+                app:layout_constraintTop_toBottomOf="@+id/hindi_tv"
+                android:background="@color/grey" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/selected_iv4"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:src="@drawable/ic_action_done_outline"
+                android:visibility="gone"
+                android:padding="@dimen/general_padding"/>
+
+        </android.support.constraint.ConstraintLayout>
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/language_layout_5"
+            app:layout_constraintTop_toBottomOf="@id/language_layout_4">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/swahili_tv"
+                android:contentDescription="@string/swahili_tv"
+                android:fontFamily="@font/ubuntu_regular"
+                android:text="@string/swahili"
+                android:textColor="@color/white"
+                android:padding="@dimen/general_padding"
+                android:textSize="20sp"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:id="@+id/divider6"
+                app:layout_constraintTop_toBottomOf="@+id/swahili_tv"
+                android:background="@color/grey" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/selected_iv5"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:src="@drawable/ic_action_done_outline"
+                android:visibility="gone"
+                android:padding="@dimen/general_padding"/>
+
+        </android.support.constraint.ConstraintLayout>
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/language_layout_6"
+            app:layout_constraintTop_toBottomOf="@id/language_layout_5">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tamil_tv"
+                android:contentDescription="@string/tamil_tv"
+                android:text="@string/tamil"
+                android:fontFamily="@font/ubuntu_regular"
+                android:textColor="@color/white"
+                android:padding="@dimen/general_padding"
+                android:textSize="20sp"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:id="@+id/divider7"
+                app:layout_constraintTop_toBottomOf="@+id/tamil_tv"
+                android:background="@color/grey" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/selected_iv6"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:src="@drawable/ic_action_done_outline"
+                android:visibility="gone"
+                android:padding="@dimen/general_padding"/>
+
+
+        </android.support.constraint.ConstraintLayout>
+
+        <android.support.constraint.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/language_layout_7"
+            app:layout_constraintTop_toBottomOf="@id/language_layout_6">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/gujarati_tv"
+                android:contentDescription="@string/gujarati_tv"
+                android:text="@string/gujarati"
+                android:fontFamily="@font/ubuntu_regular"
+                android:textColor="@color/white"
+                android:padding="@dimen/general_padding"
+                android:textSize="20sp"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:id="@+id/divider8"
+                app:layout_constraintTop_toBottomOf="@+id/gujarati_tv"
+                android:background="@color/grey" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/selected_iv7"
+                app:layout_constraintEnd_toEndOf="parent"
+                android:src="@drawable/ic_action_done_outline"
+                android:visibility="gone"
+                android:padding="@dimen/general_padding"/>
+
+        </android.support.constraint.ConstraintLayout>
+
+
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>

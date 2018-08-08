@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="general_margin">8dp</dimen>
+    <dimen name="general_padding">8dp</dimen>
+    <dimen name="AppBarLayout_height">192dp</dimen>
+    <dimen name="AppBarLayout_elevation">4dp</dimen>
+    <dimen name="BottomNavigationBar_elevation">8dp</dimen>
+    <dimen name="ProgressBar_height_width">40dp</dimen>
+    <dimen name="FloatingActionButton_elevation">6dp</dimen>
+    <dimen name="FloatingActionButton_pressedTranslationZ">6dp</dimen>
+</resources>
