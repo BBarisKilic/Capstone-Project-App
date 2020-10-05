@@ -1,7 +1,7 @@
 # Capstone Project / what is...
-Sixth and final project at udacity android developer nanodegree program. In this project I've decided to develop dictionary app using Oxford' API. I've built an app of my own design in two stages. In Stage 1, I've designed and planed the app, using a template that @Udacity provide in the "Instructions" node. In Stage 2, I've built it. 
+Sixth and final project at udacity android developer nanodegree program. In this project, I've decided to develop dictionary app using Oxford' API. I've built an app of my own design in two stages. In Stage 1, I've designed and planed the app, using a template that @Udacity provide in the "Instructions" node. In Stage 2, I've built it. 
 
-About the app, it has 2 flavors: premium and free version. In free version, users are able to use only Spanish language. In premium version, users are able to use all features of Oxford' API. The app keeps users' searches in history section. Therefore users may access to their old searches easyly. In addition, this feature is availible via widget aswell. Whenever users touch their old search on widget, the app will open and make that search again.
+About the app, it has 2 flavors: premium and free version. In free version, users are able to use only Spanish language. In premium version, users are able to use all features of Oxford' API. App keeps users' searches in history section. Therefore users may access to their old searches easyly. In addition, this feature is available via widget aswell. Whenever users touch their old search on widget, app will open and make that search again.
 
 ## Project Overview
 In the Capstone project, you will build an app of your own design in two stages. In Stage 1, you will design and plan the app, using a template that we provide in the "Instructions" node. In Stage 2, it's time to build it!
