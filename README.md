@@ -123,9 +123,6 @@ It it performs short duration, on-demand requests(such as search), app uses an A
 ### _History Screen Premium Version_
 ![ScreenShot](/images/History_Screen_Premium_Version.jpg)
 
-### _History Screen Free Version_
-![ScreenShot](/images/History_Screen_Free_Version.jpg)
-
 ### _More Screen Premium Version_
 ![ScreenShot](/images/More_Screen_Premium_Version.jpg)
 
